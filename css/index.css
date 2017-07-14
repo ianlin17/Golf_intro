@@ -1,0 +1,920 @@
+body{ margin:0;
+  padding:0;
+  top:0; 
+  overflow-x: hidden;
+}
+#first{
+  width: 100vw;
+  height:980px;
+  margin:0;
+  padding:0;
+  top:0;
+  background-size: contain;}
+
+
+
+/*.fixCover{
+position: fixed;
+left:0;
+right:0;
+top:100px;
+bottom:0;
+background: rgba(0,0,0,0);
+z-index: 5;
+}*/
+video {  
+    width: 100%;
+    height: auto;
+  }
+.menu .transition{
+    transition: 0.5s;
+  }
+
+.btn{
+    background:darkgreen;
+  } 
+.menu{
+    top: 50px;
+
+    left:1700px;
+    display:inline-block;
+    cursor: pointer;
+    position: fixed;
+/*    padding: 0 0 0 2px;*/
+    opacity:.3;
+    z-index: 99;
+     }
+
+  .menu:hover{
+    opacity: 1;
+  }
+  .menu ul{
+    color:white;
+    top:50px;
+    margin:0 -35px;
+    opacity: 1;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .menu.active ul{
+    opacity: 1;
+    max-height: 400px;
+    padding:5px;
+    background: rgba(0, 0, 0, .7);
+  }
+  .menu ul li{
+   writing-mode: horizontal;
+   width: 160px;
+
+
+  }
+  .menu ul li a{
+    text-align: center;
+    display: block;
+    padding:10px ;
+    opacity: .3;
+    font-size: 2em;
+    color: white;
+   
+    
+  }
+  .menu ul li a:hover{
+    opacity: 1;
+    text-shadow: 2px 2px 4px  white;
+
+  }
+  ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .bar{
+      width: 72px;
+      height: 5px;
+      background: white;
+      margin: 10px 0 ;
+      border-radius: 2px;
+  }
+ /* -------------------------------------首頁結束-------------------------------------;*/
+ /* -------------------------------------首頁結束-------------------------------------;*/
+ /* -------------------------------------首頁結束-------------------------------------;*/
+ /* -------------------------------------首頁結束-------------------------------------;*/
+ /* -------------------------------------首頁結束-------------------------------------;*/
+   #pageone {          
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+ /*   top:360px;*/
+    padding: 0;
+    color: rgba(240, 240, 240, 1);
+      }
+  .pobg{
+    width: 100%;
+    position: relative;
+     }
+  .ari{                        
+    width:600px;
+    position: absolute;
+    top:100px;
+    left: 300px;
+    background: rgba(0, 0, 0, .4);
+    padding: 0 10px 10px 10px;
+    font:bold: Arial, Helvetica, "微軟正黑體";
+    font-size: 1.3em;
+  }
+ .ari>h1{
+    text-align: center;
+    padding:10px;}
+  .fairway{
+    width: 324px;
+    top: 400px;
+    right: 580px;
+    position: absolute;
+    }
+    .fair, .iron, .club, .wood{
+      display: none;
+      }
+  .greenway{
+  position: absolute;
+  right: 400px;
+  top: 100px;
+  padding: 10px;
+  background: rgba(0, 0, 0, .4);
+}
+.greenway h1{
+    text-align: center;}
+
+ /* -------------------------------------第一頁結束-------------------------------------;*/
+ /* -------------------------------------第一頁結束-------------------------------------;*/
+ /* -------------------------------------第一頁結束-------------------------------------;*/
+ /* -------------------------------------第一頁結束-------------------------------------;*/
+ /* -------------------------------------第一頁結束-------------------------------------;*/
+
+#page1ext{
+  position: relative;
+  width:100vw;
+  height: 980px;
+}
+
+.teach{
+   font: bold: Arial, Helvetica, "微軟正黑體";
+    position: absolute;
+    right:450px;
+    background: rgba(0, 0, 0, .4);
+    display: inline-block;
+    top:50px;
+    padding: 0 10px 10px 10px;
+    color: white;
+    font-size: 1.2em;
+  }
+  .teach h1{
+    text-align: center;
+  }
+.transition{
+  transition:all .5s;
+  -webkit-transition: all .5s;
+}
+.slide{
+  width:800px;
+  overflow: hidden;
+  height:350px;
+  background: #000;
+  position: relative;
+}
+.slide ul.slide_img{
+  position: absolute;
+  width:2400px;
+   margin:0;
+  padding:0;
+}
+.slide ul.slide_img li{
+  width:800px;
+  float:left;
+  height:350px;
+  list-style: none;
+}
+.slide ul.slide_img li img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.slide ul.slide_node{
+  position: absolute;
+  left:0;
+  bottom:10px;
+  width:100%;
+  text-align: center;
+}
+.slide ul.slide_node li{
+  margin:0 5px;
+  display: inline-block;
+  cursor: pointer;
+  width:16px;
+  height:16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px #000 inset;
+}
+.slide ul.slide_node li:hover{
+  background: #333;
+}
+.box{
+  width: 85px;
+  margin:0 auto;
+}
+.btn {
+  margin: 20px 0;}
+.slide{
+  position: absolute;
+  right: 550px;
+  bottom: 70px;
+}
+.box{
+  position: absolute;
+  bottom: 10px;
+  right: 920px;}
+
+ /* -------------------------------------第三頁結束-------------------------------------;*/
+ /* -------------------------------------第三頁結束-------------------------------------;*/
+ /* -------------------------------------第三頁結束-------------------------------------;*/
+  #pageone2{
+  perspective:980px;
+  width:1900px;
+  height: 980px;
+  transition: all 1s;
+  transform-style: preserve-3d ;
+  position: relative;
+  }
+  #pageone2 h1{
+    text-align: center;
+    top: 30px;
+    font-size: 5em; 
+  }
+
+  .brandpic img{
+    top:0;
+    width: 1900px;
+    height:980px;
+    background-size: contain;
+    position: absolute; 
+  }
+  .cover{
+  top: 100px;
+  left:180px;
+  position: absolute;
+  width: 250px;
+  height: 250px; 
+  }
+  .japan, .yamaha{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.japan{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.yamaha{
+  width:200px;
+  height:200px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover:hover .japan{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover:hover .yamaha{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ;   
+}
+/*--------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+ .cover1{
+  top:660px;
+  left: 600px;
+  position: absolute;
+  width:250px;
+  height:250px; 
+  }
+  .japan1, .yonex{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.japan1{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.yonex{
+  width:250px;
+  height:250px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover1:hover .japan1{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover1:hover .yonex{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ;   
+}/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+.cover2{
+  top:40px;
+  left: 1050px;
+  position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .japan2, .mizuno{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+
+.japan2{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.mizuno{
+  width:250px;
+  height:250px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover2:hover .japan2{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover2:hover .mizuno{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ;   
+}
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover3{
+  top:40px;
+  left:1450px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .japan3, .bridgestone{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.japan3{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.bridgestone{
+  width:300px;
+  height:300px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover3:hover .japan3{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover3:hover .bridgestone{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+.cover4{
+  top:375px;
+  left:1480px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .usa, .callaway{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.usa{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.callaway{
+  width:230px;
+  height:180px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover4:hover .usa{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover4:hover .callaway{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ;  }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+.cover5{
+ top:350px;
+  left:1050px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .japan4, .cleveland{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.japan4{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.cleveland{
+  width:280px;
+  height:280px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover5:hover .japan4{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover5:hover .cleveland{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover6{
+  top:365px;
+  left:580px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .ger, .cobra{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.ger{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+}
+.cobra{
+  width:280px;
+  height:230px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover6:hover .ger{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover6:hover .cobra{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover7{
+  top:70px;
+  left:580px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .usa2, .nike{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.usa2{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.nike{
+  width:280px;
+  height:230px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover7:hover .usa2{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover7:hover .nike{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover8{
+  top:660px;
+  left:1470px;
+  position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .usa3, .ping{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.usa3{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.ping{
+  width:280px;
+  height:230px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover8:hover .usa3{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover8:hover .ping{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover9{
+  top:380px;
+  left:150px;
+   position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .usa3, .Titleist{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.usa3{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.Titleist{
+  width:280px;
+  height:230px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover9:hover .usa3{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover9:hover .Titleist{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover10{
+  top:650px;
+  left:170px;
+  position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .ger1, .TM{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.ger1{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.TM{
+  width:300px;
+  height:250px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover10:hover .ger1{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover10:hover .TM{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+.cover11{
+  top:640px;
+  left:1050px;
+  position: absolute;
+  width:250px;
+  height:250px; 
+  padding:0;
+  }
+  .usa4, .wilson{
+  width:100%;
+  position: absolute;
+  display: block;
+  -webkit-backface-visibility: hidden;  
+  backface-visibility: hidden;
+}
+.usa4{
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg) ;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  z-index: 1;
+
+}
+.wilson{
+  width:300px;
+  height:250px;
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  z-index:2;
+}
+.cover11:hover .usa4{
+  transform: rotateY(0deg) ;
+  -webkit-transform: rotateY(0deg);
+  transition:1s ;      
+}
+.cover11:hover .wilson{
+  transform: rotateY(180deg) ;
+  -webkit-transform: rotateY(180deg);
+  transition: 1s ; }
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+#page3{  
+   width: 100%;
+  height:980px;
+  padding: 0;
+  top: 0;
+  position: relative;
+
+}
+
+#page3>h1{
+  text-align: center;
+  color: white;
+  top: 20px;
+
+}
+.pg3bg{
+position: absolute;
+}
+.swing22{
+  width: 1920px;
+}
+.switchbtn{
+  position: absolute;
+  width: 70px
+  height:40px;
+  background: darkgreen;
+  top:200px;
+  left: 450px;
+}
+.accordion {
+  width: 420px;
+  border-bottom: solid 1px #c4c4c4;
+  position: absolute;
+  top:320px;
+  right: 150px;
+/*  left:500px;*/
+
+}
+.accordion h3 {
+  background: rgba(41, 36, 33, .2); 
+  padding: 7px 15px;
+  margin: 0;
+  font: bold 120%/100% Arial, Helvetica, "微軟正黑體";
+  border: solid 1px #c4c4c4;
+  border-bottom: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.5em;
+  word-spacing: 0.5em;
+  display: block;
+}
+.accordion h3:hover {
+  background-color: #e3e2e2;
+}
+/*.accordion h3.active {
+  background-position: right 5px;
+}*/
+.accordion p {
+  background: rgba(242, 242, 242, .5);
+  margin: 0;
+  padding: 15px;
+  border-left: solid 1px #c4c4c4;
+  border-right: solid 1px #c4c4c4;
+  font-size: 1.3em;
+  word-spacing: 2em;
+  letter-spacing: 0.1em;
+  border-radius: 20px;
+  font: bolder: Arial, Helvetica, "微軟正黑體";
+  font-size: 1.5em;
+}
+.accordion p.active{
+
+}
+/*.switch{
+  position: absolute;
+  top: 330px
+  left:720px;
+  width:560px;
+  height: 380px;
+   opacity: 0;
+}*/
+#swingpic{
+  position: absolute;
+  top: 330px;
+  left: 720px;
+  padding:0;
+  margin: 0;
+
+}
+.swing{
+   width:600px;
+  height:400px;
+  position: relative;
+  display: none;
+/*  display: none;*/
+}
+/*.swingpic .swing_img{
+  position: absolute;
+  width:4800px;
+   margin:0;
+  padding:0;
+}
+/*.swingpic .swing_img {
+  width:600px;
+  float:left;
+  height:400px;
+  list-style: none;
+}*/
+/*.swingpic .swing_img img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  
+}*/
+.swing div{
+width: 100%;
+height: 100% ;
+position:absolute;
+top:0;
+left:0;
+bottom: 0;
+right:0;
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+}
+
+.swing img{
+  max-width: 100%;
+  align-items: center;
+  
+
+}
+
